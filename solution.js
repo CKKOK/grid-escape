@@ -3,7 +3,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-// test
+
 let length = parseInt(process.argv[2]) || 0;
 let speed = parseInt(process.argv[3]) || 1000;
 let threshold = parseInt(process.argv[4]) || 1000;
